@@ -12,17 +12,17 @@ html {
 /* Header */
 header {
   width: 100vw;
-  height: 80px;
+  height: 7vw;
   background: #97bf3f;
 }
 
 header .logo {
   display: flex;
   align-items: center;
-  height: 80px;
-  margin-left: 20px;
+  height: 100%;
+  margin-left: .5%;
 }
 
 header .logo img {
-  height: 60px;
+  height: 80%;
 }
