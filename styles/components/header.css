@@ -1,17 +1,17 @@
 /* Header */
-header {
+.header {
   width: 100vw;
   height: 80px;
   background: #121f3d;
 }
 
-header .logo {
+.header__logo {
   display: flex;
   align-items: center;
   height: 100%;
   margin-left: 0.5%;
 }
 
-header .logo img {
+.header__logo--img {
   height: 80%;
 }
