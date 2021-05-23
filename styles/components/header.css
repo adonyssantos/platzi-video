@@ -15,3 +15,20 @@
 .header__logo--img {
   height: 80%;
 }
+
+.header__menu {
+  margin-right: 0.5%;
+}
+
+.header__menu--profile{
+  margin-right: 8px;
+  width: 40px;
+}
+
+.header__menu--list{
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 100px;
+  text-align: right;
+}
