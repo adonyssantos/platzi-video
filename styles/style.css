@@ -3,6 +3,7 @@
 @import "./components/index.css";
 
 body {
+  font-family: 'Mulish', sans-serif;
   background: #121f3d;
   color: #f2f2f4;
 }
