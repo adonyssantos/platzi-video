@@ -2,16 +2,16 @@
 .categories__title {
   position: absolute;
   width: 100%;
-  padding-left: 30px;
   font-size: 3.2rem;
   color: #f2f2f4;
 }
 
 .carousel {
   position: relative;
-  width: 100vw;
-  overflow: scroll;
-  padding: 0 30px;
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding-left: 30px;
 }
 
 .carousel__container {
@@ -91,3 +91,7 @@
   opacity: 1;
   color: #f2f2f4;
 }
+
+/* ::-webkit-scrollbar {
+  
+} */
