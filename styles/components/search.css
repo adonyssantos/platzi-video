@@ -21,10 +21,17 @@
   width: 100%;
   height: 50px;
   margin-bottom: 20px;
+  padding-left: 20px;
   font-family: "Mulish", sans-serif;
   background: #f1f1f31a;
   border: #f2f2f4 solid 2px;
   border-radius: 25px;
+  outline: none;
+  transition: 350ms ease;
+}
+
+.input:focus {
+  border: #c5c5cc solid 2px;
 }
 
 .input::placeholder {
