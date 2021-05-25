@@ -24,7 +24,7 @@
 
 .login__container h2 {
   font-size: 3.2rem;
-}	
+}
 
 .login__container--login {
   display: flex;
@@ -93,4 +93,13 @@
   border-radius: 25px;
   background: #f1f1f31a;
   color: #f2f2f2;
+}
+
+@media screen and (max-width: 600px) {
+  .login__container {
+    width: 100%;
+    padding: 0;
+    background: transparent;
+    border: none;
+  }
 }
