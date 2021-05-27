@@ -1,3 +1,13 @@
+# node modules
+node_modules
+package-lock.json
+
+# build
+build
+
+# code
 .vscode
+
+# images
 /*.png
 /*.jpg
