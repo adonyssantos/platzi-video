@@ -1,0 +1,18 @@
+/* Imports */
+@import "./reset";
+
+// Components
+@import "./components/header";
+@import "./components/search";
+@import "./components/carousel";
+@import "./components/login";
+@import "./components/register";
+@import "./components/footer";
+@import "./components/main";
+@import "./components/not-found";
+
+body {
+  font-family: 'Mulish', sans-serif;
+  background: #121f3d;
+  color: #f2f2f4;
+}
